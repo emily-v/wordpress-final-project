@@ -16,7 +16,30 @@ $api = new \WPAS\Controller\WPASAPIController([
 /**
  * Then you can start adding each endpoint one by one
 */
-$api->get([ 'path' => '/courses', 'controller' => 'SampleController:getDraftCourses' ]); 
+$api->get([ 
+    'path' => '/courses', 
+    'controller' => 'SampleController:getDraftCourses' 
+    ]);
+    
+$api->get([ 
+    'path' => '/product',
+    'controller' => 'ProductController:getAllProducts'
+    ]);
 
-$api->get([ 'path' => '/photo', 'controller' => 'PhotoController:getDraftPhoto' ]); 
+$api->get([ 
+    'path' => '/photo',
+    'controller' => 'PhotoController:getPhotos', 
+    ]);
+$api->put([
+    'path' => '/test', 
+    'controller' => 'PhotoController:putNewPhoto']);
+    
+$api->get([
+    'path' => '/user',
+    'controller' => 'UserController:getUser',
+    ]);
+$api->put([
+    'path' => '/user',
+    'controller' => 'UserController:putNewUser',
+    ]);
 
