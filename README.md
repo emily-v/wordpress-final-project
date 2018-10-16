@@ -1,6 +1,9 @@
 # WordPress Hello
 
-WordPress boilerplate for 4Geeks Academy students
+(Headless) WordPress boilerplate for 4Geeks Academy students
+
+## Front-End Code Repository available here: 
+https://github.com/emily-v/final-project-emily-keshaunda
 
 ## Installation Procedure
 
