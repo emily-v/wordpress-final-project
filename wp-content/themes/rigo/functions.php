@@ -23,11 +23,11 @@ add_theme_support( 'post-thumbnails' );
 
 
 
-function insertProductCard($atts, $content = null) {
-   extract(shortcode_atts(array('id' => '#'), $atts));
-   return '<ProductCard productID={id} />';
-}
-add_shortcode('productCard', 'insertProductCard');
+// function insertProductCard($atts, $content = null) {
+//   extract(shortcode_atts(array('id' => '#'), $atts));
+//   return '<ProductCard productID={id} />';
+// }
+// add_shortcode('productCard', 'insertProductCard');
 
 
 
