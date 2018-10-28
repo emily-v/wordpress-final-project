@@ -1,39 +1,12 @@
-# WordPress Hello
+## Travel Blog and eCommerce | Headless WordPress with REST API
 
-(Headless) WordPress boilerplate for 4Geeks Academy students
+Back end content managed via WordPress utilizing RESTful API and JSON, PHP, custom post types, and Advanced Custom Fields. User token validation and order submission managed through JetPack and WooCommerce plugins.
 
-## Front-End Code Repository available here: 
-https://github.com/emily-v/final-project-emily-keshaunda
+#### Front-End Code Repository available here: https://github.com/emily-v/travel-blog-final-project
 
-## Installation Procedure
+##### Project main homepage:
 
-#### 1) Start by installing the boilerplate
+<img src="https://image.ibb.co/npJA5q/Screen-Shot-2018-10-28-at-4-57-10-PM.png" width="400" />
 
-Use the Breathecode CLI
-```bash
-$ breathecode start:wordpress
-```
-Or use git
-```bash
-$ git clone git@github.com:4GeeksAcademy/wordpress-hello.git
-```
 
-#### 2) Install the composer packages
-```bash
-$ composer install
-```
-
-#### 3) Run the installator
-```bash
-$ bash install.sh
-```
-
-## You are done! Start working!
-
-Check your website, you are going to see a "Hello Rigoberto" message, you can login into the dashboard with your c9 username and the password you specified.
-
-### - Adding API enpoints
-This boilerplate comes with a sample API andpoint already, all api enpoints can be added into the **setup_api.php** file.
-
-### - Adding Entities (Post Types)
-All the Post Types configuration is done in the **setup_types.php** file.
+Built from the 4GeeksAcademy wordpress-hello boilerplate here: https://github.com/4GeeksAcademy/wordpress-hello
