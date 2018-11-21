@@ -22,15 +22,6 @@ require('setup_templates.php');
 add_theme_support( 'post-thumbnails' );
 
 
-
-// function insertProductCard($atts, $content = null) {
-//   extract(shortcode_atts(array('id' => '#'), $atts));
-//   return '<ProductCard productID={id} />';
-// }
-// add_shortcode('productCard', 'insertProductCard');
-
-
-
 add_filter( 'woocommerce_rest_check_permissions',
 	function ( $permission, $context, $object_id, $post_type ) {
 		if ( $context !== 'read' ) {
